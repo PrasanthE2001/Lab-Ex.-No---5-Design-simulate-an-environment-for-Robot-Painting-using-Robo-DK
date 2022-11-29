@@ -29,7 +29,9 @@ It is also possible to select the corresponding button in the toolbar.
 In this example, we will use a UR10 robot (10 kg payload robot and 1.3 m reach).
 3. Select Download. The robot should automatically appear in the station in a few seconds.
 4. The online library can be closed once the robot is loaded
-5. ![image](https://user-images.githubusercontent.com/36288975/173728975-43978edf-209a-43b3-bc4c-28d2d90bab18.png)
+
+6. ![image](https://user-images.githubusercontent.com/36288975/173728975-43978edf-209a-43b3-bc4c-28d2d90bab18.png)
+
 Add a Reference Frame
 A Reference frame allows placing objects with respect to a robot or with respect to other objects in the 3D
 space (including position and orientation).
@@ -53,7 +55,9 @@ Tip: Select ToolsOptionsDisplayDisplay XYZ axis letters to see the Coor
 4. Select ViewMake reference frames smaller (-) to decrease the size of the reference frames
 5. Select ViewShow/Hide text on screen (/) to show or hide the text on the screen
 6. Optionally, rename any reference frame or object in the tree by selecting F2
+
 ![image](https://user-images.githubusercontent.com/36288975/173728997-ce0d0fa7-db74-4b07-b8fc-908a803bb478.png)
+
 Import 3D objects
 RoboDK supports most standard 3D formats such as STL, STEP (or STP) and IGES (or IGS) formats. Other
 formats such as WRML, 3DS or OBJ are also supported (STEP and IGES are not supported on Mac and Linux
@@ -77,8 +81,11 @@ the coordinates manually and/or by moving the TCP holding the ALT+Shift key as s
 1. Hold ALT+Shift or select the highlighted button from the toolbar
 2. Select the light blue plane (XZ plane of the TCP) and drag the TCP approximately towards the surface
 of the spray gun, as shown in the next image
+
 ![image](https://user-images.githubusercontent.com/36288975/173729087-9e7ab693-7065-43ca-971b-de7952856d97.png)
+
 ![image](https://user-images.githubusercontent.com/36288975/173729098-1b3986f5-f4eb-4de3-90de-406aef711563.png)
+
 By default, RoboDK will define the TCP at the position [X,Y,Z]=[0,0,200] mm. This can be changed by entering
 the coordinates manually and/or by moving the TCP holding the ALT+Shift key as shown in the next image:
 1. Hold ALT+Shift or select the highlighted button from the toolbar
@@ -101,7 +108,9 @@ double clicking the Paint gun object. The mouse wheel can be used on top of each
 update the position on the main screen.
 Note: These are estimate values according to the 3D drawings. If the definition of the TCP is calibrated on the
 robot it is possible to import it by pasting the coordinates in that box.
+
 ![image](https://user-images.githubusercontent.com/36288975/173729267-d5599e55-30ad-4a59-bfda-3575116efcc6.png)
+
 Create Targets
 Robot positions are recorded as Targets. Follow these steps to create two targets as a new home target and
 approach target respectively:
@@ -126,6 +135,7 @@ deg. These values can be copied from this text and pasted in the Joint axis jog 
 using the corresponding button.
 
 ![image](https://user-images.githubusercontent.com/36288975/173729300-681d96a6-c064-4e23-a7af-c0230765725c.png)
+
 7. Rename the first target as Home by pressing F2. Alternatively, select ToolsRename item.
 8. Move the robot closer to one edge of the part (by dragging the tool using the Alt key, entering
 coordinates or jogging the axis manually)
@@ -153,6 +163,7 @@ Note: If no target is selected, a new target will be created at the same locatio
 6. Select Program Move Joint Instruction again
 Double click the ApproachMove program and it will execute the program simulation. The simulation bar and
 an estimated cycle time will be displayed.   
+
 ![image](https://user-images.githubusercontent.com/36288975/173729348-a700964f-505d-4935-b4d9-a5e95aa32d7a.png)
 
 Create Targets on Surface
@@ -167,6 +178,7 @@ the left/right keys.
 5. Hold Alt to move an existing target
 6. Hold Alt+Shift to move an existing target while keeping it on the surface
 7. Select Esc key or right click on the screen and select Done to exit the Create Targets on Surface mode
+
 8. ![image](https://user-images.githubusercontent.com/36288975/173729366-e0d49a75-454d-4366-b7f5-1e02de369d1d.png)
 
 1. Select all the targets created on the surface and right click
@@ -182,6 +194,7 @@ movement will be a joint move and following movements will be linear.
 
 
 ![image](https://user-images.githubusercontent.com/36288975/173729404-a7b7ffef-3366-434b-9cc4-8246e93fec28.png)
+
 Add a Retract Program
 Similar to the previous operations:
 1. With the robot placed at the last target, move the robot upwards by increasing the Z coordinate of the
@@ -200,6 +213,7 @@ Home target
 ##Program:
 */
 Developed by : PRASANTH E
+
 RegisterNumber : 212221233002 
 */
 ```
